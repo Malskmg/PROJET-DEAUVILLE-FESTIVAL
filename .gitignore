@@ -1,0 +1,32 @@
+# Environnements Python
+.venv/
+venv/
+env/
+
+# Fichiers Python générés
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Construction
+dist/
+build/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Données de démonstration et sauvegardes locales
+data/festival.demo.json
+data/festival.backup.json
+data/.*.tmp
+
+# Système
+.DS_Store
+Thumbs.db
